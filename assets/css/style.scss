@@ -1,10 +1,15 @@
-/* PrismJS 1.24.1
-https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript+lua&plugins=line-highlight+line-numbers+file-highlight+highlight-keywords+autoloader+normalize-whitespace+toolbar+copy-to-clipboard+download-button+treeview */
+@import "{{ site.theme }}";
+
+/** PrismJS 1.24.1
+https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript+lua&plugins=line-highlight+line-numbers+file-highlight+highlight-keywords+autoloader+normalize-whitespace+toolbar+copy-to-clipboard+download-button+treeview 
+**/
+
 /**
- * prism.js Twilight theme
- * Based (more or less) on the Twilight theme originally of Textmate fame.
- * @author Remy Bach
- */
+* prism.js Twilight theme
+* Based (more or less) on the Twilight theme originally of Textmate fame.
+* @author Remy Bach
+**/
+
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #ccc;
