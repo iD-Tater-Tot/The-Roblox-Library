@@ -1,11 +1,3 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Mono"></link>
-<link rel="stylesheet" href="https://000644708.deployed.codepen.website/style/index.css"></link>
-
-<center><pre class="line-numbers" 
-	     data-start="" 
-	     data-line="5-7">
-<code class="language-lua">
-
 local Players = game:GetService("Players")
 local replayPart = script.Parent
 local initialSpawn = script.InitialSpawnLocation.Value
@@ -22,7 +14,3 @@ local function onTouch(otherPart)
 end
 
 replayPart.Touched:Connect(onTouch)
-
-</code></pre></center>
-
-<script src="https://000644708.deployed.codepen.website/style/index.js"></script>
